@@ -71,7 +71,6 @@ def gprint(service, file_id):
     file = service.files().get(fileId=file_id).execute()
     return file
 
-#file upload
 def gupload(service,filepath,id=[]):
     '''
     upload to gdrive
