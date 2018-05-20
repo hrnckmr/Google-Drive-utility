@@ -1,5 +1,6 @@
 # Google-Drive-utility
 ## How to Use
+from google colaboratory, you can upload json file as following
 ```
 #file_upload_dialog
 import google.colab.files as ggl
