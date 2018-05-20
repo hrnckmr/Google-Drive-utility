@@ -22,7 +22,7 @@ service = gutil.service()
 q_name="name="+"'"+argument[1]+"'"
 
 id1=gutil.gquery(service,q_name)
-print("***QUERY RESULT***",id1)
+#print("***QUERY RESULT***",id1)
 #print("./"+argument[2],id1[0][2])
 
 cmd="./"+argument[2],id1[0][2]
