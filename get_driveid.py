@@ -16,6 +16,7 @@ print("***SEARCH FOR*** ", argument[1])
 #service
 import gutil
 service = gutil.service()
+print("name="+argument[1])
 id1=gutil.gquery(service,"name="+argument[1])[0]
 print("./"+argument[2],id1[2])
 
