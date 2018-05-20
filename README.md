@@ -11,6 +11,5 @@ fname = [k for k in fname.keys()][0]
 print(fname)
 #change_the_json_name
 import os
-#os.rename(fname,'client_secret.json')
-
+os.rename(fname,'client_secret.json')
 ```
