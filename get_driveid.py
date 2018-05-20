@@ -18,3 +18,7 @@ import gutil
 service = gutil.service()
 id1=gutil.gquery(service,"name='colab_temp'")[0]
 print("./"+argument[2],id1[2])
+
+cmd="./"+argument[2],id1[2]
+gutil.gupload(service,cmd[0],cmd[1])
+
