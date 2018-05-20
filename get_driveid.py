@@ -5,8 +5,8 @@
 
 import sys
 argument = sys.argv
-for i in argument:
-    print("received argument", i)
+for i,x in enumerate(argument):
+    print("received argument", i, x)
 
-print(argument[0])
+print(call argument[1])
 
