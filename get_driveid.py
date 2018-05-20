@@ -17,4 +17,4 @@ print("***SEARCH FOR*** ", argument[1])
 import gutil
 service = gutil.service()
 id1=gutil.gquery(service,"name='colab_temp'")[0]
-print("./"+fname,id1[2])
+print("./"+argument[2],id1[2])
