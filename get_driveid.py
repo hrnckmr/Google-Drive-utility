@@ -21,9 +21,9 @@ print(q_name)
 print("sample:","name='colab_temp'")
 
 id1=gutil.gquery(service,q_name)
-print(id1)
+print("query result:",id1)
 print("./"+argument[2],id1[0][2])
 
-cmd="./"+argument[2],id1[2]
+cmd="./"+argument[2],id1[0][2]
 gutil.gupload(service,cmd[0],cmd[1])
 
