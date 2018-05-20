@@ -8,5 +8,5 @@ argument = sys.argv
 for i,x in enumerate(argument):
     print("received argument", i, x)
 
-print("find", argument[1])
+print("***SEARCH FOR*** ", argument[1])
 
