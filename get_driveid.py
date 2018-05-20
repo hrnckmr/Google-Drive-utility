@@ -3,8 +3,11 @@
 #
 #Call "service = gutil.service()" and
 #get Resource in module googleapiclient.discovery object
-
-#UNDER CONSTRUCTION!
+#
+#upload upload file in current folder to specified google drive folder 
+#ex execute from jupyter
+#upload ./pip.txt to google drive folder(colab_temp)
+#! python ./gutil/get_driveid.py colab_temp pip.txt
 
 import sys
 argument = sys.argv
