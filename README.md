@@ -13,3 +13,11 @@ print(fname)
 import os
 os.rename(fname,'client_secret.json')
 ```
+you should feed service to use api
+then create service as following
+```
+#service
+from gutil import gutil
+service = gutil.service()
+```
+
