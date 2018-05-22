@@ -16,8 +16,8 @@ print(fname)
 import os
 os.rename(fname,'client_secret.json')
 ```
-#to use api you need "service" 
-#create by following script
+#to use api you need "service"  
+#create by following script  
 ```
 #service
 from gutil import gutil
