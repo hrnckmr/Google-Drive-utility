@@ -24,3 +24,8 @@ from gutil import gutil
 service = gutil.service()
 ```
 
+#you can upload google drive (folder name: colab_temp, file name:sample.png)
+```
+import subprocess
+subprocess.Popen(["python", "./gutil/SmplUpld.py", "colab_temp", "sample.png",])
+```
