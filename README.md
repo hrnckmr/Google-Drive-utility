@@ -16,17 +16,16 @@ print(fname)
 import os
 os.rename(fname,'client_secret.json')
 ```
-#to use api you need "service"  
-#create by following script  
+to use api you need "service"  
+create by following script  
 ```
 #service
 from gutil import gutil
 service = gutil.service()
 ```
-
-#you can upload file in current directory (file name:sample.png),  
-#to google drive(folder name: colab_temp)  
-#like following
+you can upload file in current directory (file name:sample.png),  
+to google drive(folder name: colab_temp)  
+like following
 ```
 import subprocess
 subprocess.Popen(["python", "./gutil/SmplUpld.py", "colab_temp", "sample.png",])
