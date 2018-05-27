@@ -3,6 +3,11 @@
 Documentation at qiita
 * [qiita](https://qiita.com/hrnckmr/items/e2fd307566580d0cae65)
 
+clone this repository
+```
+! git clone https://github.com/hrnckmr/gutil
+```
+
 from google colaboratory, you can upload json file as following
 ```
 #file_upload_dialog
