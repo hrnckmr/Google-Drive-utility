@@ -16,4 +16,4 @@ tgz:application/x-compressed
 zip:application/zip
 
 mp3:audio/mpeg
-wav:aidop/wav
+wav:audio/wav
